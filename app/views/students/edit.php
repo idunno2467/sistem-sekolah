@@ -8,20 +8,26 @@
 </head>
  
 <body class="min-h-screen flex flex-col bg-gray-100">
+    <!-- Header start -->
     <header class="bg-blue-500 text-white">
         <div class="flex items-center justify-between container mx-auto p-4">
             <a href="/students" class="font-bold text-xl">Sistem Sekolah</a>
             <a href="/students/create" class="bg-white text-blue-500 px-4 py-2 rounded-lg">+ Tambah Siswa</a>
         </div>
     </header>
-
+    <!-- Header End -->
+ 
+    <!-- Main Content Start -->
     <main class="grow container mx-auto p-4">
         <div class="mt-8rem space-y-4">
+            <!-- Card Header Start -->
             <div class="bg-white shadow rounded-lg p-4">
                 <h1 class="text-xl font-bold">Edit Siswa</h1>
                 <p>Melakukan perubahan data siswa yang terdaftar</p>
             </div>
-
+            <!-- Card Header End -->
+ 
+            <!-- Card Content Start -->
             <div class="bg-white shadow rounded-lg">
                 <form action="" class="p-4 grid grid-cols-2 gap-4">
                     <div class="space-y-2">
@@ -46,17 +52,18 @@
                     </div>
                 </form>
             </div>
-
+            <!-- Card Content End -->
         </div>
     </main>
+    <!-- Main End -->
  
-
+    <!-- Footer Start -->
     <footer class="bg-gray-800 text-white ">
         <div class="text-center p-4">
             &copy <?= date('Y')?> - Sistem Sekolah SMK Kristen Immanuel
         </div>
     </footer>
-
+    <!-- Footer End -->
 </body>
 </html>
  
