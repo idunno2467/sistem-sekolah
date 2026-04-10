@@ -201,9 +201,6 @@
   .mx-auto {
     margin-inline: auto;
   }
-  .mt-8 {
-    margin-top: calc(var(--spacing) * 8);
-  }
   .block {
     display: block;
   }
@@ -263,9 +260,6 @@
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
-  }
-  .bg-blue-100 {
-    background-color: var(--color-blue-100);
   }
   .bg-blue-500 {
     background-color: var(--color-blue-500);
